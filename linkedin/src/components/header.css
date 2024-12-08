@@ -1,0 +1,97 @@
+header {
+    font-size: 12px;
+    border-bottom: 1px solid rgb(140 140 140 / .2);
+    position: fixed;
+    top: 0;
+    z-index: 105;
+    padding: 0 2.4rem;
+    background-color: white;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    min-height: 100%;
+    width: 1128px;
+    padding: 10px;
+}
+
+.linkedin-logo {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.left-section {
+    display:flex;
+}
+
+.middle-section {
+    display: flex;
+}
+
+.navbar-icons {
+    display:contents;
+    list-style-type: none;
+}
+
+li {
+    align-items: center;
+}
+.top-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+ a {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    display:flex;
+}
+
+label {
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.icon {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    min-width: 80px;
+}
+
+.top-icon:hover {
+    opacity: 1;
+}
+
+.right-section {
+    border-left: 1px solid rgb(140 140 140 / .2);
+}
+
+.search-box {
+    border: 1px solid rgba(199, 192, 192, 0.5);
+    background-color: rgba(175, 211, 233, 0.349);
+    background-image: url('../../public/magifying.svg');
+    background-size: 16px;
+    background-repeat: no-repeat;
+    outline: 0;
+    background-position: 10px; 
+    width: 100%;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    padding: 0 40px;
+    border-radius: 0.4rem;
+ }
+ 
+ .search-box::placeholder {
+ font-size: 14px;
+ }
